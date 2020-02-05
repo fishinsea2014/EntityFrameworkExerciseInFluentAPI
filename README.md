@@ -12,5 +12,5 @@ This is a exercise for EF core, which includes one to many and many to many rela
     </PackageReference>
 
   #command：
-    - dotnet ef (--start project) migrations add v1
-    - dotnet ef database  update
+    + dotnet ef (--start project) migrations add v1
+    + dotnet ef database  update
