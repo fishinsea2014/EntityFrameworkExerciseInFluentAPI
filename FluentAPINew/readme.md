@@ -1,11 +1,6 @@
-<Project Sdk="Microsoft.NET.Sdk">
-
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp2.2</TargetFramework>
-  </PropertyGroup>
-
-  <ItemGroup>
+﻿
+依赖：
+ <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.6" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.2.6" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.6" />
@@ -15,4 +10,9 @@
     </PackageReference>
   </ItemGroup>
 
-</Project>
+  command：
+  dotnet ef (--start project) migrations add v1
+  dotnet ef database  update
+
+
+
