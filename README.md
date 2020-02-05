@@ -11,6 +11,6 @@ This is a exercise for EF core, which includes one to many and many to many rela
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
     </PackageReference>
 
-  command：
-  dotnet ef (--start project) migrations add v1
-  dotnet ef database  update
+  #command：
+    - dotnet ef (--start project) migrations add v1
+    - dotnet ef database  update
